@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+    <script src="./java/calcula.js"></script>
+    <header class="top">
+        <h1>SPECTRA</h1>
+        <div class="top__div">
+            <h2>12</h2>
+            <h3>DIGIT</h3>
+        </div>
+    </header>
+    <main>
+        <section class="tarea">
+            <textarea name="pantalla" id="pantalla" cols="12" rows="1"></textarea>
+        </section>
+        <section class="tax">
+            <p>TAX FUNCTION CALCULATOR</p>
+            <div class="tax__botones">
+               <input type ="button" id="tax__set" class="tax__set" value="SET" onclick="set()">
+               <input type="button" id="tax__rt" class="tax__rt" value="-TAX" onclick="retax()">
+               <input type="button" id="tax__st" class="tax__st" value="+TAX" onclick="sutax()">
+            </div>
+        </section>
+        <section class="entrada">
+            <input type = "button" id="mu" class="mu" value="MU" onclick="fu()">
+            <input type = "button" id="ms" class="ms" value="M+" onclick="fu()">
+            <input type = "button" id="mres" class="mres" value="M-" onclick="fu()">
+            <input type = "button" id="mrec" class="mrec" value="MR" onclick="fu()">
+            <input type = "button" id="mc" class="MC" value="MC" onclick="fu()">
+            <input type = "button" id="flecha" class="flecha" value="->" onclick="fu()">
+            <input type = "button" id="off" class="off" value="OFF" onclick="fu()">
+            <input type = "button" id="seven" class="seven" value="7" onclick="seven()">
+            <input type = "button" id="eight" class="eight" value="8" onclick="eight()">
+            <input type = "button" id="nine" class="nine" value="9" onclick="nine()">
+            <input type = "button" id="porc" class="porc" value="%" onclick="porc()">
+            <input type = "button" id="nepo" class="nepo" value="+/-" onclick="nepo()">
+            <input type = "button" id="clear" class="clear" value="C" onclick="clearp()">
+            <input type = "button" id="four" class="four" value="4" onclick="four()">
+            <input type = "button" id="five" class="five" value="5" onclick="five()">
+            <input type = "button" id="six" class="six" value="6" onclick="six()">
+            <input type = "button" id="x" class="x" value="X" onclick="multip()">
+            <input type = "button" id="diag" class="diag" value="/"  onclick="divi()">
+            <input type = "button" id="ce" class="ce" value="CE" onclick="clearp()">
+            <input type = "button" id="one" class="one" value="1" onclick="one()">
+            <input type = "button" id="two" class="two" value="2" onclick="two()">
+            <input type = "button" id="three" class="three" value="3" onclick="three()">
+            <input type = "button" id="mas" class="mas" value="+" onclick="mas()">
+            <input type = "button" id="menos" class="menos" value="-" onclick="menos()">
+            <input type = "button" id="on" class="on" value="ON" onclick="prende()">
+            <input type = "button" id="cero" class="cero" value="0" onclick="cero()">
+            <input type = "button" id="dcero" class="dcero" value="00" onclick="dcero()">
+            <input type = "button" id="dot"   class="dot"   value="." onclick="punto()">
+            <input type = "button" id="igual" class="igual" value="=" onclick="calculadora()">
+        </section>
+    </main>
+</body>
+</html>

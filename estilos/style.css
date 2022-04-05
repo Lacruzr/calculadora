@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.top {
+    display:flex;
+   }
+.top h1 {
+    width: 70%;
+    font-size: 4rem;
+}
+
+.top__div h2 {
+    text-align: center;
+}
+
+.top h3 {
+    width: 30%;
+}
+.tarea {
+    display: flex;
+    align-content: center;
+}
+textarea {
+    font-size: 10rem;
+
+}
+.tax {
+    padding: 10px;
+    display: flex;
+}
+
+.tax p {
+    width: 50%;
+}
+
+.tax div {
+    width: 50%;
+}
+.tax__botones button {
+    margin: 5px;
+    font-size: 2rem;
+}
+.mu {
+    background-color: darkblue;
+    color: white;
+    grid-area: mu;
+} 
+
+.ms {
+    background-color: darkblue;
+    color: white;
+    grid-area: ms;
+}
+.mres {
+    background-color: darkblue;
+    color: white;
+    grid-area: mres;
+}
+.mrec {
+    background-color: darkblue;
+    color: white;
+    grid-area:mrec;
+} 
+.mc {
+    background-color: darkblue;
+    color: white;
+    grid-area:mc ;
+}
+.flecha {
+    background-color: darkblue;
+    color: white;
+    grid-area:flecha;
+}
+.off {
+    background-color: darkblue;
+    color: white;
+    grid-area:off;
+}
+.seven {
+    background-color: gray;
+    grid-area:seven;
+}
+.eight {
+    background-color: gray;
+    grid-area:eight;
+}
+.nine {
+    background-color: gray;
+    grid-area:nine;
+}
+.porc  {
+    grid-area:porc;
+} 
+.nepo {
+    grid-area:nepo;
+}
+.auto {
+    grid-area:auto;
+}
+.clear {
+    background-color: darkblue;
+    color: white;
+    grid-area:clear;
+}
+.four {
+    background-color: gray;
+    grid-area:four;
+}
+.five {
+    background-color: gray;
+    grid-area:five;
+}    
+.six {
+    background-color: gray;
+    grid-area:six;
+}
+.x {
+    grid-area:x;
+}       
+.diag {
+    grid-area:diag;
+} 
+.ce {
+    background-color: darkblue;
+    color: white;
+    grid-area:ce;
+}
+.one   {
+    background-color: gray;
+    grid-area:one;
+}  
+.two  {
+    background-color: gray;
+    grid-area:two;
+}
+.three  {
+    background-color: gray;
+    grid-area:three;
+}  
+.mas  {
+    grid-area:mas;
+}   
+.menos {
+    grid-area:menos;
+}
+.on {
+    background-color: green;
+    color: white;
+    grid-area: on;
+}
+.cero {
+    background-color: gray;
+    grid-area:cero;
+}
+.dcero {
+    background-color: gray;
+    grid-area:dcero;
+}
+.dot {
+    background-color: gray;
+    grid-area:dot;
+}
+.mas {
+    grid-area:mas;
+}
+.igual {
+    grid-area:igual;
+}
+.entrada {
+    display: grid;
+    gap: 10px;
+    grid-template:
+    "mu     ms      mres    mrec    mc      flecha" auto
+    "off    seven   eight   nine    porc    nepo"   auto 
+    "clear  four    five    six     x       diag"   auto
+    "ce     one     two     three   mas     menos"  auto
+    "on     cero    dcero   dot     mas     igual"  auto / 
+    auto    auto    auto    auto    auto    auto    auto;
+}
+
